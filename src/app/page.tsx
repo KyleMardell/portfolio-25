@@ -1,10 +1,10 @@
+import styles from "./page.module.css";
 import Hero from "./components/Hero";
 
-const name: string = "Kyle";
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.page}>
       <Hero />
     </main>
   );
