@@ -21,13 +21,14 @@ export default function FaceAnimation() {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentFrame((prev) => (prev + 1) % frames.length);
+            setCurrentFrame((prev) => (prev + 1) % frames.length); // ensures the value of setCurrentFrame will always be between 1 and 8 using modulus %
         }, 750);
         return () => clearInterval(interval);
     }, []);
 
     return (
         <div className={styles.container}>
+            {/* maps the frames array and sets current frame styles class to active*/}
             {frames.map((src, index) => (
                 <img
                     key={index}
