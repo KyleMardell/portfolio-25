@@ -8,7 +8,7 @@
 /* Set up body styles */
 html, body {
   height: 100%;
-  background-color: #e1e1e1; /* Background Colour */
+  background-color: white; /* Background Colour */
   font-family: sans-serif; /* Temporary until adding Google Fonts */
   color: #000;
 }
@@ -24,6 +24,11 @@ ul, ol {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* Remove bottom margin */
+p {
+  margin: 0 !important;
 }
 
 /* Make images responsive */

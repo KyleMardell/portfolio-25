@@ -4,6 +4,29 @@
     max-width: 400px; /* Actual image size */
     aspect-ratio: 1/1;
     margin: 0 auto;
+    border-radius: 5%; /* must match .frame */
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 22%;
+    border-radius: inherit;
+    background: linear-gradient(
+        to bottom,
+        rgba(225, 225, 225, 0) 0%,
+        rgba(225, 225, 225, 1) 100%
+    );
+    pointer-events: none; /* make sure clicks pass through */
 }
 
 .frame {
@@ -15,6 +38,7 @@
     object-fit: contain;
     opacity: 0; /* hides the frame */
     transition: opacity 0.5s ease-in-out;
+    border-radius: 5%;
 }
 
 .active {
