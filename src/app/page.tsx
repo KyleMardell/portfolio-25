@@ -1,6 +1,10 @@
 import styles from "./page.module.css";
+
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 
 export default function Home() {
@@ -8,6 +12,9 @@ export default function Home() {
     <main className={styles.page}>
       <Hero />
       <Projects />
+      <About />
+      <Skills />
+      <Contact />
     </main>
   );
 }
