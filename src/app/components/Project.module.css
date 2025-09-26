@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: 
+        max-height 0.8s ease-in-out,
+        filter 0.4s ease-in-out;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    filter: grayscale(100%);
+}
+
+.projectImage {
+        max-height: 200px;
+        transition: max-height 1.0s ease-in-out;
+    }
+
+.container:hover {
+    max-height: 500px;
+    filter: grayscale(0%);
+    .projectImage {
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-height: 600px;
+        align-items: flex-start;
+        filter: grayscale(0%);
+    }
+    
+    .projectImage {
+        max-height: 400px;
+    }
+}
