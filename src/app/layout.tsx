@@ -2,7 +2,17 @@ import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import type { Metadata } from "next";
+import { Oswald, Karla } from 'next/font/google';
 
+const oswald = Oswald({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700'],
+});
+
+const karla = Karla({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700', '800'],
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={oswald.className}>
+      <body className={karla.className}>
         {children}
       </body>
     </html>

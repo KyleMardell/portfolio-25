@@ -1,3 +1,20 @@
+/* Google fonts Example uses
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.karla-<uniquifier> {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
+
 /* Remove default margins & paddings */
 * {
   margin: 0;
@@ -8,8 +25,7 @@
 /* Set up body styles */
 html, body {
   height: 100%;
-  background-color: white; /* Background Colour */
-  font-family: sans-serif; /* Temporary until adding Google Fonts */
+  background-color: white;
   color: #000;
 }
 
@@ -26,7 +42,7 @@ a {
   text-decoration: none;
 }
 
-/* Remove bottom margin */
+/* Remove bottom margin and set default font */
 p {
   margin: 0 !important;
 }
@@ -36,4 +52,15 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+/* Set default headings font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700 !important;
+}
+
+/* Set default body text font */
+body {
+  font-family: 'Karla', sans-serif; 
 }
