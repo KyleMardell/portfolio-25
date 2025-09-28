@@ -7,7 +7,7 @@ const Projects = () => {
         <section>
             <Container className="my-5">
                 <Row>
-                    <Col xs={12} className='text-center'>
+                    <Col xs={12} className='text-center' data-aos="flip-up">
                         <h2 className="mb-4">Projects</h2>
                     </Col>
                 </Row>

@@ -1,18 +1,8 @@
 import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import type { Metadata } from "next";
-import { Oswald, Karla } from 'next/font/google';
 
-const oswald = Oswald({
-  subsets: ['latin'],
-  weight: ['200', '300', '400', '500', '600', '700'],
-});
-
-const karla = Karla({
-  subsets: ['latin'],
-  weight: ['200', '300', '400', '500', '600', '700', '800'],
-})
+import AOSInit from "./aos-init";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,8 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={oswald.className}>
-      <body className={karla.className}>
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet" />
+      </head>
+      <body>
+        <AOSInit />
         {children}
       </body>
     </html>
