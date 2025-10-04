@@ -1,0 +1,26 @@
+.SectionTitle {
+    font-size: 3rem;
+    text-shadow: gray 2px 2px 6px;
+}
+
+.SkillsTextOne {
+    font-size: 1.5rem;
+}
+
+.SkillsTextTwo {
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .SectionTitle {
+        font-size: 4.5rem;
+    }
+
+    .SkillsTextOne {
+        font-size: 2.1rem;
+    }
+
+    .SkillsTextTwo {
+        font-size: 1.6rem;
+    }
+}

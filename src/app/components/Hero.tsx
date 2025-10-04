@@ -19,18 +19,18 @@ const Hero = () => {
                 </Row>
                 <Row className='mb-5'>
                     <Col className='p-0'>
-                        <p className={`text-start ${styles.IntroTextOne} mb-3`} data-aos="fade-down">
+                        <p className={`text-start ${styles.IntroTextOne} mb-3`} data-aos="fade-down" data-aos-duration="1500">
                             I'm Kyle, a <strong>junior full-stack developer</strong> based in Manchester.
                         </p>
-                        <p className={`text-end ${styles.IntroTextTwo} mb-3`} data-aos="fade-left">
+                        <p className={`text-end ${styles.IntroTextTwo} mb-3`} data-aos="fade-left" data-aos-duration="1500">
                             I recently completed a Full Stack Software Development diploma,<br /> 
                             where I built projects with <strong>React, Django REST, and PostgreSQL</strong>.
                         </p>
-                        <p className={`text-start ${styles.IntroTextTwo} mb-3`} data-aos="fade-right">
+                        <p className={`text-start ${styles.IntroTextTwo} mb-3`} data-aos="fade-right" data-aos-duration="1500">
                             With a background in technical problem-solving and customer-focused work, <br />
                             I bring strong attention to detail to each project and learn from every experience.
                         </p>
-                        <p className={`text-end ${styles.IntroTextOne} mb-3`} data-aos="fade-up">
+                        <p className={`text-end ${styles.IntroTextOne} mb-3`} data-aos="fade-up" data-aos-duration="1500">
                             I'm eager to keep learning, build meaningful web applications, <br />
                             and contribute to a forward-thinking development team.
                         </p>

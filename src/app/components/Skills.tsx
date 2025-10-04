@@ -1,33 +1,39 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import styles from './Skills.module.css';
 
 
 const Skills = () => {
     return (
         <section>
             <Container>
-                <Row>
+                <Row className='mb-4'>
                     <Col>
-                        <h2>Skills</h2>
-                        <p>
-                            Here are the core technologies and tools I've been working with while building full-stack web applications.
-                            I focus on writing clean, maintainable code and learning new frameworks quickly when projects demand it.
+                        <h2 className={`text-center ${styles.SectionTitle} mb-4`}>Skills</h2>
+                        <p className={`${styles.SkillsTextOne} mb-4`} data-aos="fade-right" data-aos-duration="1500">
+                            I focus on writing clean, maintainable code and <br />
+                            learning new frameworks quickly when projects demand it.
                         </p>
+                        <p className={`${styles.SkillsTextTwo} mb-4 text-end`} data-aos="fade-left" data-aos-duration="1500">
+                            Here are the core technologies and tools I've been working with <br />
+                            while building full-stack web applications.  
+                        </p>
+                        
                     </Col>
                 </Row>
-                <Row className="text-center">
-                    <Col xs={6} md={3}>
+                <Row className="text-center mb-5">
+                    <Col xs={6} md={3} className='mb-3' data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
                         <h3>Front-End</h3>
                         <p>React, Next.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap</p>
                     </Col>
-                    <Col xs={6} md={3}>
+                    <Col xs={6} md={3} className='mb-3' data-aos="flip-right" data-aos-duration="2000" data-aos-delay="100">
                         <h3>Back-End</h3>
                         <p>Python, Django, Django REST Framework, PostgreSQL</p>
                     </Col>
-                    <Col xs={6} md={3}>
+                    <Col xs={6} md={3} className='mb-3' data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100">
                         <h3>Version Control</h3>
                         <p>Git, GitHub</p>
                     </Col>
-                    <Col xs={6} md={3}>
+                    <Col xs={6} md={3} className='mb-3' data-aos="flip-right" data-aos-duration="2000" data-aos-delay="100">
                         <h3>Other</h3>
                         <p>REST APIs, Deployment (CapRover, VPS), Problem Solving, Organisation</p>
                     </Col>
@@ -35,7 +41,7 @@ const Skills = () => {
 
                 <Row>
                     <Col>
-                        <h2>Background</h2>
+                        <h2 className={`text-center ${styles.SectionTitle} mb-4`}>Background</h2>
                         <p>
                             Alongside my technical skills, here's a quick look at my recent education and experience that shaped me as a developer.
                         </p>
