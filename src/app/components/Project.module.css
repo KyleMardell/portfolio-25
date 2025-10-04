@@ -1,4 +1,4 @@
-.container {
+.Container {
     position: relative;
     width: 100%;
     max-height: 200px;
@@ -7,7 +7,6 @@
     transition: 
         max-height 0.8s ease-in-out,
         filter 0.4s ease-in-out;
-    cursor: pointer;
 
     display: flex;
     align-items: center;
@@ -16,27 +15,32 @@
     filter: grayscale(100%);
 }
 
-.projectImage {
+.ProjectImage {
         max-height: 200px;
         transition: max-height 1.0s ease-in-out;
     }
 
-.container:hover {
+.Container:hover {
     max-height: 500px;
     filter: grayscale(0%);
-    .projectImage {
+    .ProjectImage {
         max-height: 400px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .container {
+    .Container {
         max-height: 600px;
         align-items: flex-start;
         filter: grayscale(0%);
+        margin-bottom: 40px;
     }
     
-    .projectImage {
+    .ProjectImage {
         max-height: 400px;
+    }
+
+    .ProjectHeading {
+        margin-top: 15px;
     }
 }

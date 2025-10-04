@@ -1,14 +1,14 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Project from './Project';
-
+import styles from './Projects.module.css';
 
 const Projects = () => {
     return (
         <section>
             <Container className="my-5">
                 <Row>
-                    <Col xs={12} className='text-center' data-aos="flip-up">
-                        <h2 className="mb-4">Projects</h2>
+                    <Col xs={12} className='text-center mb-5'>
+                        <h2 className={styles.SectionTitle}>Projects</h2>
                     </Col>
                 </Row>
 

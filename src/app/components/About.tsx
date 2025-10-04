@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import styles from "./About.module.css";
 
 
 const About = () => {
@@ -7,20 +8,26 @@ const About = () => {
             <Container className="my-5">
                 <Row>
                     <Col xs={12}>
-                        <h2 className="mb-4">About Me</h2>
-                        <p>
-                            I'm Kyle Mardell, a junior full-stack software developer based in Manchester, U.K.
-                            My background is a little different from most developers — I spent years solving problems hands-on
-                            as a vehicle technician before retraining in full-stack development. That technical mindset,
-                            plus over a decade in customer-facing roles, taught me how to break down complex problems and
-                            communicate solutions clearly.
+                        <h2 className={`mb-4 text-center ${styles.SectionTitle}`}>About Me</h2>
+                        <p className={`${styles.AboutTextOne} mb-4`} data-aos="fade-right">
+                            I'm Kyle Mardell, a <strong>junior full-stack software developer</strong> based in <strong>Manchester, U.K</strong>.
                         </p>
-                        <p>
-                            I recently completed a diploma in Full-Stack Software Development, where I built
-                            real-world projects with <strong>React</strong>, <strong>Django REST Framework</strong>, and
-                            <strong>PostgreSQL</strong>. I enjoy the balance of creative front-end work and logical
-                            back-end problem-solving, and I'm always looking for opportunities to learn new tools and
-                            frameworks.
+                        <p className={`${styles.AboutTextTwo} mb-4 text-end`} data-aos="fade-left">
+                            My background is a little different from most developers — I spent years <br />
+                            solving problems hands-on as a vehicle technician before retraining in full-stack development.
+                        </p>
+                        <p className={`${styles.AboutTextThree} mb-4`} data-aos="fade-right">
+                            That technical mindset,
+                            plus over a decade in customer-facing roles, <br />
+                            taught me how to break down complex problems and communicate solutions clearly.
+                        </p>
+                        <p className={`${styles.AboutTextFour} mb-4 text-end`} data-aos="fade-left">
+                            I recently completed a diploma in Full-Stack Software Development, <br />where I built
+                            real-world projects with <strong>React</strong>, <strong>Django REST Framework</strong>, and <strong>PostgreSQL</strong>.
+                        </p>
+                        <p className={`${styles.AboutTextFive} mb-4`} data-aos="fade-right">
+                            I enjoy the balance of creative front-end work and logical back-end problem-solving, <br />
+                            and I'm always looking for opportunities to learn new tools and frameworks.
                         </p>
                     </Col>
                 </Row>

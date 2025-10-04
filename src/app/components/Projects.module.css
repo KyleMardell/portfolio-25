@@ -1,0 +1,10 @@
+.SectionTitle {
+    font-size: 3rem;
+    text-shadow: gray 2px 2px 6px;
+}
+
+@media screen and (min-width: 768px) {
+    .SectionTitle {
+        font-size: 4.5rem;
+    }
+}

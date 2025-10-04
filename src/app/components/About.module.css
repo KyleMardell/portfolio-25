@@ -1,0 +1,51 @@
+.SectionTitle {
+    font-size: 3rem;
+    text-shadow: gray 2px 2px 6px;
+}
+
+.AboutTextOne {
+    font-size: 1.8rem;
+}
+
+.AboutTextTwo {
+    font-size: 1.1rem;
+}
+
+.AboutTextThree {
+    font-size: 1.5rem;
+}
+
+.AboutTextFour {
+    font-size: 1.1rem;
+}
+
+.AboutTextFive {
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .SectionTitle {
+        font-size: 4.5rem;
+    }
+
+    .AboutTextOne {
+        font-size: 2.4rem;
+    }
+
+    .AboutTextTwo {
+        font-size: 1.6rem;
+    }
+
+    .AboutTextThree {
+        font-size: 2.4rem;
+    }
+
+    .AboutTextFour {
+        font-size: 1.6rem;
+    }
+
+    .AboutTextFive {
+        font-size: 2.1rem;
+    }
+}

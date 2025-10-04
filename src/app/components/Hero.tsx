@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <section>
             <Container className="my-5">
-                <Row className="align-items-center p-0 text-center mb-4">
+                <Row className="align-items-center p-0 text-center mb-5">
                     <Col xs={12} md={4} className="mb-3 mb-md-0 p-0">
                         <FaceAnimation />
                     </Col>
@@ -17,7 +17,7 @@ const Hero = () => {
                         <h3 className={`${styles.SkillsText}`}>React • Django • PostgreSQL • Responsive Design</h3>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='mb-5'>
                     <Col className='p-0'>
                         <p className={`text-start ${styles.IntroTextOne} mb-3`} data-aos="fade-down">
                             I'm Kyle, a <strong>junior full-stack developer</strong> based in Manchester.
