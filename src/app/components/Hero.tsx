@@ -18,14 +18,20 @@ const Hero = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className='p-0' data-aos="fade-down">
-                        <p className='text-center'>
-                            I'm Kyle, a junior full-stack developer based in Manchester.  <br />
-                            I recently completed a Full Stack Software Development diploma, where I built
-                            projects with <strong>React, Django REST, and PostgreSQL</strong>.<br />
-                            With a background in technical problem-solving and customer-focused work,
-                            I bring strong attention to detail to each project and learn from every experience.<br />
-                            I'm eager to keep learning, build meaningful web applications,
+                    <Col className='p-0'>
+                        <p className={`text-start ${styles.IntroTextOne} mb-3`} data-aos="fade-down">
+                            I'm Kyle, a <strong>junior full-stack developer</strong> based in Manchester.
+                        </p>
+                        <p className={`text-end ${styles.IntroTextTwo} mb-3`} data-aos="fade-left">
+                            I recently completed a Full Stack Software Development diploma,<br /> 
+                            where I built projects with <strong>React, Django REST, and PostgreSQL</strong>.
+                        </p>
+                        <p className={`text-start ${styles.IntroTextTwo} mb-3`} data-aos="fade-right">
+                            With a background in technical problem-solving and customer-focused work, <br />
+                            I bring strong attention to detail to each project and learn from every experience.
+                        </p>
+                        <p className={`text-end ${styles.IntroTextOne} mb-3`} data-aos="fade-up">
+                            I'm eager to keep learning, build meaningful web applications, <br />
                             and contribute to a forward-thinking development team.
                         </p>
                     </Col>
