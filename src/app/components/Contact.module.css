@@ -1,0 +1,30 @@
+.SectionTitle {
+    font-size: 3rem;
+    text-shadow: gray 2px 2px 6px;
+}
+
+.ContactLink {
+    color: gray;
+}
+
+.ContactIcon {
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+    .SectionTitle {
+        font-size: 4.5rem;
+    }
+
+    .ContactIcon {
+        font-size: 2.5rem;
+    }
+
+    .ContactText {
+        font-size: 1.6rem;
+    }
+
+    .ContactLink {
+        font-size: 1.1rem;
+    }
+}
