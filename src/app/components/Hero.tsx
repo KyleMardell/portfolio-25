@@ -20,7 +20,7 @@ const Hero = () => {
                 <Row className='mb-5'>
                     <Col className='p-0'>
                         <p className={`text-start ${styles.IntroTextOne} mb-3`} data-aos="fade-down" data-aos-duration="1500">
-                            I'm Kyle, a <strong> full-stack developer</strong> based in Manchester.
+                            I'm Kyle, a <strong>full-stack developer</strong> based in Manchester.
                         </p>
                         <p className={`text-end ${styles.IntroTextTwo} mb-3`} data-aos="fade-left" data-aos-duration="1500">
                             I recently completed a Full Stack Software Development diploma,<br /> 
