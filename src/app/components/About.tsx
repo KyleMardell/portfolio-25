@@ -10,7 +10,7 @@ const About = () => {
                     <Col xs={12}>
                         <h2 className={`mb-4 text-center ${styles.SectionTitle}`}>About Me</h2>
                         <p className={`${styles.AboutTextOne} mb-4`} data-aos="fade-right" data-aos-duration="1500">
-                            I'm Kyle Mardell, a <strong>junior full-stack software developer</strong> based in <strong>Manchester, U.K</strong>.
+                            I'm Kyle Mardell, a <strong>full-stack software developer</strong> based in <strong>Manchester, U.K</strong>.
                         </p>
                         <p className={`${styles.AboutTextTwo} mb-4 text-end`} data-aos="fade-left" data-aos-duration="1500">
                             My background is a little different from most developers — I spent years <br />
