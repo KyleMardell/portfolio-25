@@ -14,7 +14,7 @@ const About = () => {
                         </p>
                         <p className={`${styles.AboutTextTwo} mb-4 text-end`} data-aos="fade-left" data-aos-duration="1500">
                             My background is a little different from most developers — I spent years <br />
-                            solving problems hands-on as a vehicle technician before retraining in full-stack development.
+                            solving problems hands-on as a <strong>vehicle technician</strong> before retraining in full-stack development.
                         </p>
                         <p className={`${styles.AboutTextThree} mb-4`} data-aos="fade-right" data-aos-duration="1500">
                             That technical mindset,

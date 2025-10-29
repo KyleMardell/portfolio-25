@@ -70,9 +70,9 @@ const Skills = () => {
                             <h3 className={styles.SkillsHeading}>Experience</h3>
                             <p className={styles.SkillsTextTwo} data-aos="fade-left" data-aos-duration="2000">
                                 Recently transitioned into web development after completing my diploma.
-                                Built and deployed full-stack apps using <strong>React, Django, and PostgreSQL</strong>.
+                                Built and deployed full-stack apps using <strong>React, Django, and PostgreSQL</strong>.<br />
                                 I continue to develop <strong>personal projects</strong> and expand my skill set, learning modern tools such as
-                                <strong> Next.js</strong> and <strong>TypeScript</strong> to stay up to date with current industry practices.
+                                <strong> Next.js</strong> and <strong>TypeScript</strong> to stay up to date with current industry practices.<br />
                                 My background outside of tech gave me strong problem-solving skills, attention to detail, and the ability to work both independently and as part of a team.
                             </p>
                         </div>
