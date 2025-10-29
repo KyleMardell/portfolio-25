@@ -13,14 +13,14 @@ const Hero = () => {
                     </Col>
                     <Col xs={12} md={8} className='p-0'>
                         <h1 className={`${styles.NameText} mb-3`}>Kyle Mardell</h1>
-                        <h2 className={`${styles.RoleText}`}>Junior Full Stack Web Developer</h2>
+                        <h2 className={`${styles.RoleText}`}>Full Stack Web Developer</h2>
                         <h3 className={`${styles.SkillsText}`}>React • Django • PostgreSQL • Responsive Design</h3>
                     </Col>
                 </Row>
                 <Row className='mb-5'>
                     <Col className='p-0'>
                         <p className={`text-start ${styles.IntroTextOne} mb-3`} data-aos="fade-down" data-aos-duration="1500">
-                            I'm Kyle, a <strong>junior full-stack developer</strong> based in Manchester.
+                            I'm Kyle, a <strong> full-stack developer</strong> based in Manchester.
                         </p>
                         <p className={`text-end ${styles.IntroTextTwo} mb-3`} data-aos="fade-left" data-aos-duration="1500">
                             I recently completed a Full Stack Software Development diploma,<br /> 
